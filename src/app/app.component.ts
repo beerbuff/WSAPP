@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { GamePage } from '../pages/game/game';
 import { TodoListPage } from '../pages/todo-list/todo-list';
+import { PostJsonPage } from '../pages/post-json/post-json';
 
 @Component({
   templateUrl: 'app.html'
@@ -26,7 +27,8 @@ export class MyApp {
       { title: 'Home', component: HomePage },
       { title: 'List', component: ListPage },
       { title: 'Game', component: GamePage },
-      { title: 'TodoList', component: TodoListPage }
+      { title: 'TodoList', component: TodoListPage },
+      { title: 'PostJSON', component: PostJsonPage }
     ];
 
   }

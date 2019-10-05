@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { HttpClient } from '@angular/common/http';
 
+
 /**
  * Generated class for the TodoListPage page.
  *
@@ -33,6 +34,10 @@ export class TodoListPage {
       console.log(this.todosArray);
     }, (error) => { console.log(error) });
 
+    
+  }
 
+  newtask(){
+    this.navCtrl.push("TaskPage");
   }
 }

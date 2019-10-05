@@ -11,6 +11,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { GamePage } from '../pages/game/game';
 import { TodoListPage } from '../pages/todo-list/todo-list';
+import { PostJsonPage } from '../pages/post-json/post-json';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TodoListPage } from '../pages/todo-list/todo-list';
     HomePage,
     ListPage,             
     GamePage,
-    TodoListPage //เพิ่มเพจ
+    TodoListPage,
+    PostJsonPage //เพิ่มเพจ
   ],
   imports: [
     BrowserModule, HttpClientModule, //ติดต่อเเว็บ้างนอก
@@ -30,7 +32,8 @@ import { TodoListPage } from '../pages/todo-list/todo-list';
     HomePage,
     ListPage,        
     GamePage,
-    TodoListPage //เพิ่มเพจ
+    TodoListPage,
+    PostJsonPage //เพิ่มเพจ
   ],
   providers: [
     StatusBar,
